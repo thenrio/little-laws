@@ -5,8 +5,7 @@ end
 
 def cum(*values)
   return 0 if values.empty?
-  value = values.pop
-  value + 2*cum(*values)
+  values.pop + 2*cum(*values)
 end
 
 def mean_cum(*values)
