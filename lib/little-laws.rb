@@ -8,3 +8,7 @@ def cum(*values)
   value = values.pop
   value + 2*cum(*values)
 end
+
+def mean_cum(*values)
+  cum(*values) / Float(values.length)
+end

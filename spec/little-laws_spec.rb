@@ -24,3 +24,9 @@ describe 'cum' do
   end
 end
 
+describe 'mean_cum' do
+  it 'should return 5.5 for *[3, 5]' do
+    mean_cum(3, 5).should == 5.5
+  end
+end
+
