@@ -6,5 +6,5 @@ end
 def cum(*values)
   return 0 if values.empty?
   value = values.pop
-  value + cum(*values)
+  value + 2*cum(*values)
 end

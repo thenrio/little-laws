@@ -19,9 +19,9 @@ describe 'cum' do
     cum(3).should == 3
   end
 
-#  it 'should return 11 for *[3, 5]' do
-#    cum(3, 5).should == 11
-#  end
+  it 'should return 11 for *[3, 5]' do
+    cum(3, 5).should == 11
+  end
 
 #  it 'should return 11 for *[3, 5]' do
 #    cum(3, 5, 1).should == 23
