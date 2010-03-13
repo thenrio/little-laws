@@ -4,6 +4,5 @@ def mean(*values)
 end
 
 def cum(*values)
-  return 0 if values.empty?
-  values.inject {|sum, n| sum+n}
+  return values if values.empty?
 end
