@@ -1,3 +1,5 @@
 def mean_cycle_time(*values)
-  0
+  return 0 if values.empty?
+  sum = 0
+  values.inject {|sum, n| sum+n} / Float(values.length)
 end
