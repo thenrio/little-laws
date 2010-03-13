@@ -11,7 +11,7 @@ describe "mean" do
 end
 
 describe 'cum' do
-  it 'should return [] for []' do
+  it 'should return 0 for *[]' do
     cum().should == 0
   end
 
