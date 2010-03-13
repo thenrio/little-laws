@@ -1,3 +1,3 @@
-def mean_cycle_time()
+def mean_cycle_time(*values)
   0
 end
