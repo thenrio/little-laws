@@ -4,5 +4,5 @@ def mean(*values)
 end
 
 def cum(*cycle_times)
-  11
+  return 0 if cycle_times.empty?
 end
