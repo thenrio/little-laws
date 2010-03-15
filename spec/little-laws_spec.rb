@@ -1,5 +1,4 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
-require 'ruby-debug'
 describe "mean" do
   it 'should return 0 for empty values' do
     mean().should == 0
@@ -10,17 +9,17 @@ describe "mean" do
   end
 end
 
-describe 'cum' do
+describe 'sum_of_cum' do
   it 'should return 0 for *[]' do
-    cum().should == 0
+    sum_of_cum().should == 0
   end
 
   it 'should return 3 for *[3]' do
-    cum(3).should == 3
+    sum_of_cum(3).should == 3
   end
 
   it 'should return 11 for *[3, 5]' do
-    cum(3, 5).should == 11
+    sum_of_cum(3, 5).should == 11
   end
 end
 
